@@ -1,0 +1,4402 @@
+{
+    "header": {
+        "gtfsRealtimeVersion": "2.0",
+        "incrementality": "FULL_DATASET",
+        "timestamp": "1740908756"
+    },
+    "entity": [
+        {
+            "id": "1205",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453485U",
+                    "startTime": "10:28:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "10U"
+                },
+                "position": {
+                    "latitude": 45.06245040893555,
+                    "longitude": 7.662769794464111,
+                    "bearing": 39
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "1205",
+                    "label": "6054"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "685",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453398U",
+                    "startTime": "10:45:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "10U"
+                },
+                "position": {
+                    "latitude": 45.03020095825195,
+                    "longitude": 7.639780044555664,
+                    "bearing": 27
+                },
+                "timestamp": "1740908727",
+                "vehicle": {
+                    "id": "685",
+                    "label": "6034"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "598",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453516U",
+                    "startTime": "10:44:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "10U"
+                },
+                "position": {
+                    "latitude": 45.07658004760742,
+                    "longitude": 7.670370101928711,
+                    "bearing": 215
+                },
+                "timestamp": "1740908726",
+                "vehicle": {
+                    "id": "598",
+                    "label": "6028"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "452",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453453U",
+                    "startTime": "10:27:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "10U"
+                },
+                "position": {
+                    "latitude": 45.03496170043945,
+                    "longitude": 7.643280029296875,
+                    "bearing": 198
+                },
+                "timestamp": "1740908704",
+                "vehicle": {
+                    "id": "452",
+                    "label": "6002"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "101",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26459046U",
+                    "startTime": "10:39:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "102U"
+                },
+                "position": {
+                    "latitude": 45.03076934814453,
+                    "longitude": 7.602149963378906,
+                    "bearing": 45
+                },
+                "timestamp": "1740908741",
+                "vehicle": {
+                    "id": "101",
+                    "label": "19014"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1367",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453559U",
+                    "startTime": "10:33:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "10NU"
+                },
+                "position": {
+                    "latitude": 45.10602951049805,
+                    "longitude": 7.6817097663879395,
+                    "bearing": 5
+                },
+                "timestamp": "1740908743",
+                "vehicle": {
+                    "id": "1367",
+                    "label": "1367"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1355",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453583U",
+                    "startTime": "10:29:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "10NU"
+                },
+                "position": {
+                    "latitude": 45.07892990112305,
+                    "longitude": 7.675020217895508,
+                    "bearing": 234
+                },
+                "timestamp": "1740908730",
+                "vehicle": {
+                    "id": "1355",
+                    "label": "1355"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1352",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453629U",
+                    "startTime": "10:15:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "10NU"
+                },
+                "position": {
+                    "latitude": 45.10643005371094,
+                    "longitude": 7.680469989776611,
+                    "bearing": 0
+                },
+                "timestamp": "1740908724",
+                "vehicle": {
+                    "id": "1352",
+                    "label": "1352"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1361",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453679U",
+                    "startTime": "10:42:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "11U"
+                },
+                "position": {
+                    "latitude": 45.12635040283203,
+                    "longitude": 7.635000228881836,
+                    "bearing": 109
+                },
+                "timestamp": "1740908731",
+                "vehicle": {
+                    "id": "1361",
+                    "label": "1361"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1351",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453708U",
+                    "startTime": "10:09:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "11U"
+                },
+                "position": {
+                    "latitude": 45.124839782714844,
+                    "longitude": 7.64631986618042,
+                    "bearing": 64
+                },
+                "timestamp": "1740908715",
+                "vehicle": {
+                    "id": "1351",
+                    "label": "1351"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1363",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453687U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "11U"
+                },
+                "position": {
+                    "latitude": 45.07392883300781,
+                    "longitude": 7.68503999710083,
+                    "bearing": 24
+                },
+                "timestamp": "1740908701",
+                "vehicle": {
+                    "id": "1363",
+                    "label": "1363"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1364",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453735U",
+                    "startTime": "10:00:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "11U"
+                },
+                "position": {
+                    "latitude": 45.0613899230957,
+                    "longitude": 7.674779891967773,
+                    "bearing": 206
+                },
+                "timestamp": "1740908706",
+                "vehicle": {
+                    "id": "1364",
+                    "label": "1364"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1380",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453757U",
+                    "startTime": "10:21:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "11U"
+                },
+                "position": {
+                    "latitude": 45.09914016723633,
+                    "longitude": 7.669099807739258,
+                    "bearing": 148
+                },
+                "timestamp": "1740908724",
+                "vehicle": {
+                    "id": "1380",
+                    "label": "1380"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9044",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453797U",
+                    "startTime": "10:32:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "12U"
+                },
+                "position": {
+                    "latitude": 45.04322052001953,
+                    "longitude": 7.640890121459961,
+                    "bearing": 61
+                },
+                "timestamp": "1740908734",
+                "vehicle": {
+                    "id": "9044",
+                    "label": "9044"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9049",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453835U",
+                    "startTime": "10:18:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "12U"
+                },
+                "position": {
+                    "latitude": 45.04096984863281,
+                    "longitude": 7.623539924621582,
+                    "bearing": 303
+                },
+                "timestamp": "1740908731",
+                "vehicle": {
+                    "id": "9049",
+                    "label": "9049"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9017",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453788U",
+                    "startTime": "10:43:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "12U"
+                },
+                "position": {
+                    "latitude": 45.062068939208984,
+                    "longitude": 7.672840118408203,
+                    "bearing": 289
+                },
+                "timestamp": "1740908728",
+                "vehicle": {
+                    "id": "9017",
+                    "label": "9017"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3005",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453886U",
+                    "startTime": "10:45:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "13U"
+                },
+                "position": {
+                    "latitude": 45.06393814086914,
+                    "longitude": 7.696760177612305,
+                    "bearing": 313
+                },
+                "timestamp": "1740908731",
+                "vehicle": {
+                    "id": "3005",
+                    "label": "3005"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9064",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453906U",
+                    "startTime": "10:42:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "13U"
+                },
+                "position": {
+                    "latitude": 45.0814094543457,
+                    "longitude": 7.639520168304443,
+                    "bearing": 98
+                },
+                "timestamp": "1740908739",
+                "vehicle": {
+                    "id": "9064",
+                    "label": "9064"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9234",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26453954U",
+                    "startTime": "10:25:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "13U"
+                },
+                "position": {
+                    "latitude": 45.07590866088867,
+                    "longitude": 7.669529914855957,
+                    "bearing": 26
+                },
+                "timestamp": "1740908741",
+                "vehicle": {
+                    "id": "9234",
+                    "label": "9234"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9251",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454043U",
+                    "startTime": "10:06:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "14U"
+                },
+                "position": {
+                    "latitude": 44.99885940551758,
+                    "longitude": 7.631279945373535,
+                    "bearing": 198
+                },
+                "timestamp": "1740908725",
+                "vehicle": {
+                    "id": "9251",
+                    "label": "9251"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9243",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454004U",
+                    "startTime": "10:40:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "14U"
+                },
+                "position": {
+                    "latitude": 45.05772018432617,
+                    "longitude": 7.669179916381836,
+                    "bearing": 206
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "9243",
+                    "label": "9243"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9260",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454015U",
+                    "startTime": "10:17:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "14U"
+                },
+                "position": {
+                    "latitude": 45.031009674072266,
+                    "longitude": 7.651879787445068,
+                    "bearing": 20
+                },
+                "timestamp": "1740908725",
+                "vehicle": {
+                    "id": "9260",
+                    "label": "9260"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "220",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454101U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "15U"
+                },
+                "position": {
+                    "latitude": 45.060489654541016,
+                    "longitude": 7.660719871520996,
+                    "bearing": 106
+                },
+                "timestamp": "1740908706",
+                "vehicle": {
+                    "id": "220",
+                    "label": "5036"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "235",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454065U",
+                    "startTime": "10:31:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "15U"
+                },
+                "position": {
+                    "latitude": 45.06718826293945,
+                    "longitude": 7.697629928588867,
+                    "bearing": 223
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "235",
+                    "label": "5013"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "258",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454146U",
+                    "startTime": "10:48:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "15U"
+                },
+                "position": {
+                    "latitude": 45.062618255615234,
+                    "longitude": 7.62106990814209,
+                    "bearing": 324
+                },
+                "timestamp": "1740908720",
+                "vehicle": {
+                    "id": "258",
+                    "label": "5032"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "232",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454138U",
+                    "startTime": "10:13:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "15U"
+                },
+                "position": {
+                    "latitude": 45.062870025634766,
+                    "longitude": 7.678830146789551,
+                    "bearing": 326
+                },
+                "timestamp": "1740908742",
+                "vehicle": {
+                    "id": "232",
+                    "label": "5018"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "207",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454176U",
+                    "startTime": "10:49:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "15U"
+                },
+                "position": {
+                    "latitude": 45.0813102722168,
+                    "longitude": 7.730279922485352,
+                    "bearing": 270
+                },
+                "timestamp": "1740908653",
+                "vehicle": {
+                    "id": "207",
+                    "label": "5025"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "184",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454371U",
+                    "startTime": "10:27:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "16CDU"
+                },
+                "position": {
+                    "latitude": 45.05305862426758,
+                    "longitude": 7.680039882659912,
+                    "bearing": 296
+                },
+                "timestamp": "1740908734",
+                "vehicle": {
+                    "id": "184",
+                    "label": "794"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "41",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454370U",
+                    "startTime": "10:21:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "16CDU"
+                },
+                "position": {
+                    "latitude": 0,
+                    "longitude": 0,
+                    "bearing": 0
+                },
+                "timestamp": "1740908727",
+                "vehicle": {
+                    "id": "41",
+                    "label": "791"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3411",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454332U",
+                    "startTime": "10:36:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "16CDU"
+                },
+                "position": {
+                    "latitude": 45.083961486816406,
+                    "longitude": 7.661789894104004,
+                    "bearing": 107
+                },
+                "timestamp": "1740908724",
+                "vehicle": {
+                    "id": "3411",
+                    "label": "3411"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "796",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454399U",
+                    "startTime": "10:12:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "16CDU"
+                },
+                "position": {
+                    "latitude": 45.0644416809082,
+                    "longitude": 7.650219917297363,
+                    "bearing": 0
+                },
+                "timestamp": "1740908687",
+                "vehicle": {
+                    "id": "796",
+                    "label": "796"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3419",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454226U",
+                    "startTime": "10:51:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "16CSU"
+                },
+                "position": {
+                    "latitude": 45.064170837402344,
+                    "longitude": 7.650740146636963,
+                    "bearing": 234
+                },
+                "timestamp": "1740908716",
+                "vehicle": {
+                    "id": "3419",
+                    "label": "3419"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3421",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454247U",
+                    "startTime": "10:35:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "16CSU"
+                },
+                "position": {
+                    "latitude": 45.076759338378906,
+                    "longitude": 7.656199932098389,
+                    "bearing": 181
+                },
+                "timestamp": "1740908737",
+                "vehicle": {
+                    "id": "3421",
+                    "label": "3421"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3337",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454498U",
+                    "startTime": "10:20:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "17U"
+                },
+                "position": {
+                    "latitude": 45.0583610534668,
+                    "longitude": 7.576350212097168,
+                    "bearing": 184
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "3337",
+                    "label": "3337"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3028",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454509U",
+                    "startTime": "10:40:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "17U"
+                },
+                "position": {
+                    "latitude": 45.07062911987305,
+                    "longitude": 7.5276899337768555,
+                    "bearing": 83
+                },
+                "timestamp": "1740908734",
+                "vehicle": {
+                    "id": "3028",
+                    "label": "3028"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3312",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454514U",
+                    "startTime": "09:50:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "17U"
+                },
+                "position": {
+                    "latitude": 45.07109832763672,
+                    "longitude": 7.5360798835754395,
+                    "bearing": 90
+                },
+                "timestamp": "1740908742",
+                "vehicle": {
+                    "id": "3312",
+                    "label": "3312"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2411",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454524U",
+                    "startTime": "10:10:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "17U"
+                },
+                "position": {
+                    "latitude": 45.059600830078125,
+                    "longitude": 7.576600074768066,
+                    "bearing": 3
+                },
+                "timestamp": "1740908745",
+                "vehicle": {
+                    "id": "2411",
+                    "label": "2411"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3347",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454435U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "17U"
+                },
+                "position": {
+                    "latitude": 0,
+                    "longitude": 0,
+                    "bearing": 0
+                },
+                "timestamp": "1740908720",
+                "vehicle": {
+                    "id": "3347",
+                    "label": "3347"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3300",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454454U",
+                    "startTime": "09:40:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "17U"
+                },
+                "position": {
+                    "latitude": 45.03947067260742,
+                    "longitude": 7.652520179748535,
+                    "bearing": 0
+                },
+                "timestamp": "1740908728",
+                "vehicle": {
+                    "id": "3300",
+                    "label": "3300"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3324",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454462U",
+                    "startTime": "10:00:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "17U"
+                },
+                "position": {
+                    "latitude": 45.048789978027344,
+                    "longitude": 7.634520053863525,
+                    "bearing": 117
+                },
+                "timestamp": "1740908736",
+                "vehicle": {
+                    "id": "3324",
+                    "label": "3324"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1387",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454589U",
+                    "startTime": "10:51:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "18U"
+                },
+                "position": {
+                    "latitude": 45.094398498535156,
+                    "longitude": 7.7169599533081055,
+                    "bearing": 270
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "1387",
+                    "label": "1387"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1392",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454594U",
+                    "startTime": "10:27:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "18U"
+                },
+                "position": {
+                    "latitude": 45.039520263671875,
+                    "longitude": 7.672190189361572,
+                    "bearing": 6
+                },
+                "timestamp": "1740908743",
+                "vehicle": {
+                    "id": "1392",
+                    "label": "1392"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1371",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454620U",
+                    "startTime": "10:49:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "18U"
+                },
+                "position": {
+                    "latitude": 45.02431106567383,
+                    "longitude": 7.636270046234131,
+                    "bearing": 340
+                },
+                "timestamp": "1740908734",
+                "vehicle": {
+                    "id": "1371",
+                    "label": "1371"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1368",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454649U",
+                    "startTime": "10:07:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "18U"
+                },
+                "position": {
+                    "latitude": 45.04764938354492,
+                    "longitude": 7.67579984664917,
+                    "bearing": 205
+                },
+                "timestamp": "1740908739",
+                "vehicle": {
+                    "id": "1368",
+                    "label": "1368"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1383",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454570U",
+                    "startTime": "10:29:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "18U"
+                },
+                "position": {
+                    "latitude": 45.0807991027832,
+                    "longitude": 7.691689968109131,
+                    "bearing": 237
+                },
+                "timestamp": "1740908718",
+                "vehicle": {
+                    "id": "1383",
+                    "label": "1383"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9229",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454669U",
+                    "startTime": "10:18:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "19U"
+                },
+                "position": {
+                    "latitude": 45.069061279296875,
+                    "longitude": 7.667459964752197,
+                    "bearing": 207
+                },
+                "timestamp": "1740908733",
+                "vehicle": {
+                    "id": "9229",
+                    "label": "9229"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9242",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454698U",
+                    "startTime": "10:40:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "19U"
+                },
+                "position": {
+                    "latitude": 45.07822036743164,
+                    "longitude": 7.71012020111084,
+                    "bearing": 305
+                },
+                "timestamp": "1740908701",
+                "vehicle": {
+                    "id": "9242",
+                    "label": "9242"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9222",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454704U",
+                    "startTime": "10:37:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "19U"
+                },
+                "position": {
+                    "latitude": 45.0788688659668,
+                    "longitude": 7.688409805297852,
+                    "bearing": 270
+                },
+                "timestamp": "1740908743",
+                "vehicle": {
+                    "id": "9222",
+                    "label": "9222"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3082",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454735U",
+                    "startTime": "10:32:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "19NU"
+                },
+                "position": {
+                    "latitude": 45.099510192871094,
+                    "longitude": 7.704669952392578,
+                    "bearing": 302
+                },
+                "timestamp": "1740908600",
+                "vehicle": {
+                    "id": "3082",
+                    "label": "3082"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9320",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454819U",
+                    "startTime": "10:04:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "2U"
+                },
+                "position": {
+                    "latitude": 45.10020065307617,
+                    "longitude": 7.660250186920166,
+                    "bearing": 25
+                },
+                "timestamp": "1740908733",
+                "vehicle": {
+                    "id": "9320",
+                    "label": "9320"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9306",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454831U",
+                    "startTime": "10:21:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "2U"
+                },
+                "position": {
+                    "latitude": 45.05759048461914,
+                    "longitude": 7.635039806365967,
+                    "bearing": 2
+                },
+                "timestamp": "1740908726",
+                "vehicle": {
+                    "id": "9306",
+                    "label": "9306"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9329",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454844U",
+                    "startTime": "10:39:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "2U"
+                },
+                "position": {
+                    "latitude": 45.023101806640625,
+                    "longitude": 7.647130012512207,
+                    "bearing": 296
+                },
+                "timestamp": "1740908722",
+                "vehicle": {
+                    "id": "9329",
+                    "label": "9329"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9310",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454758U",
+                    "startTime": "09:44:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "2U"
+                },
+                "position": {
+                    "latitude": 45.026161193847656,
+                    "longitude": 7.6385498046875,
+                    "bearing": 124
+                },
+                "timestamp": "1740908743",
+                "vehicle": {
+                    "id": "9310",
+                    "label": "9310"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9323",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454769U",
+                    "startTime": "10:02:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "2U"
+                },
+                "position": {
+                    "latitude": 45.04644012451172,
+                    "longitude": 7.634230136871338,
+                    "bearing": 182
+                },
+                "timestamp": "1740908715",
+                "vehicle": {
+                    "id": "9323",
+                    "label": "9323"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9300",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454782U",
+                    "startTime": "10:19:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "2U"
+                },
+                "position": {
+                    "latitude": 45.09220886230469,
+                    "longitude": 7.654679775238037,
+                    "bearing": 205
+                },
+                "timestamp": "1740908730",
+                "vehicle": {
+                    "id": "9300",
+                    "label": "9300"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9314",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454793U",
+                    "startTime": "10:39:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "2U"
+                },
+                "position": {
+                    "latitude": 45.10103988647461,
+                    "longitude": 7.6996002197265625,
+                    "bearing": 26
+                },
+                "timestamp": "1740908707",
+                "vehicle": {
+                    "id": "9314",
+                    "label": "9314"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "800",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454803U",
+                    "startTime": "09:45:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "2U"
+                },
+                "position": {
+                    "latitude": 45.09223937988281,
+                    "longitude": 7.710110187530518,
+                    "bearing": 119
+                },
+                "timestamp": "1740908735",
+                "vehicle": {
+                    "id": "800",
+                    "label": "800"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3350",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454886U",
+                    "startTime": "10:35:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "20U"
+                },
+                "position": {
+                    "latitude": 45.134090423583984,
+                    "longitude": 7.75547981262207,
+                    "bearing": 190
+                },
+                "timestamp": "1740908720",
+                "vehicle": {
+                    "id": "3350",
+                    "label": "3350"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3369",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454899U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "20U"
+                },
+                "position": {
+                    "latitude": 45.144248962402344,
+                    "longitude": 7.751999855041504,
+                    "bearing": 8
+                },
+                "timestamp": "1740908724",
+                "vehicle": {
+                    "id": "3369",
+                    "label": "3369"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "14008",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26454975U",
+                    "startTime": "10:40:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "26U"
+                },
+                "position": {
+                    "latitude": 45.11940002441406,
+                    "longitude": 7.712480068206787,
+                    "bearing": 67
+                },
+                "timestamp": "1740908746",
+                "vehicle": {
+                    "id": "14008",
+                    "label": "14008"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9217",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455032U",
+                    "startTime": "10:02:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "27U"
+                },
+                "position": {
+                    "latitude": 45.06930923461914,
+                    "longitude": 7.68189001083374,
+                    "bearing": 0
+                },
+                "timestamp": "1740908746",
+                "vehicle": {
+                    "id": "9217",
+                    "label": "9217"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9228",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455069U",
+                    "startTime": "10:32:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "27U"
+                },
+                "position": {
+                    "latitude": 45.099998474121094,
+                    "longitude": 7.723710060119629,
+                    "bearing": 204
+                },
+                "timestamp": "1740908737",
+                "vehicle": {
+                    "id": "9228",
+                    "label": "9228"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9238",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455019U",
+                    "startTime": "10:25:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "27U"
+                },
+                "position": {
+                    "latitude": 45.09574890136719,
+                    "longitude": 7.711999893188477,
+                    "bearing": 122
+                },
+                "timestamp": "1740908748",
+                "vehicle": {
+                    "id": "9238",
+                    "label": "9238"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9068",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455142U",
+                    "startTime": "10:31:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "29U"
+                },
+                "position": {
+                    "latitude": 45.092079162597656,
+                    "longitude": 7.654550075531006,
+                    "bearing": 204
+                },
+                "timestamp": "1740908704",
+                "vehicle": {
+                    "id": "9068",
+                    "label": "9068"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9069",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455090U",
+                    "startTime": "10:09:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "29U"
+                },
+                "position": {
+                    "latitude": 45.10398864746094,
+                    "longitude": 7.624390125274658,
+                    "bearing": 180
+                },
+                "timestamp": "1740908748",
+                "vehicle": {
+                    "id": "9069",
+                    "label": "9069"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "227",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455197U",
+                    "startTime": "10:07:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "3U"
+                },
+                "position": {
+                    "latitude": 45.10404968261719,
+                    "longitude": 7.623730182647705,
+                    "bearing": 262
+                },
+                "timestamp": "1740908737",
+                "vehicle": {
+                    "id": "227",
+                    "label": "5007"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "228",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455217U",
+                    "startTime": "10:42:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "3U"
+                },
+                "position": {
+                    "latitude": 45.07081985473633,
+                    "longitude": 7.702189922332764,
+                    "bearing": 222
+                },
+                "timestamp": "1740908708",
+                "vehicle": {
+                    "id": "228",
+                    "label": "5014"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "217",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455181U",
+                    "startTime": "10:20:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "3U"
+                },
+                "position": {
+                    "latitude": 45.07931900024414,
+                    "longitude": 7.67549991607666,
+                    "bearing": 114
+                },
+                "timestamp": "1740908734",
+                "vehicle": {
+                    "id": "217",
+                    "label": "5053"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "239",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455243U",
+                    "startTime": "10:24:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "3U"
+                },
+                "position": {
+                    "latitude": 45.08694839477539,
+                    "longitude": 7.656300067901611,
+                    "bearing": 5
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "239",
+                    "label": "5016"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "242",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455282U",
+                    "startTime": "10:38:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "3U"
+                },
+                "position": {
+                    "latitude": 45.096900939941406,
+                    "longitude": 7.657519817352295,
+                    "bearing": 113
+                },
+                "timestamp": "1740908703",
+                "vehicle": {
+                    "id": "242",
+                    "label": "5045"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2033",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455296U",
+                    "startTime": "10:12:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "30U"
+                },
+                "position": {
+                    "latitude": 45.04315948486328,
+                    "longitude": 7.774109840393066,
+                    "bearing": 8
+                },
+                "timestamp": "1740908717",
+                "vehicle": {
+                    "id": "2033",
+                    "label": "33"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "824",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455338U",
+                    "startTime": "10:13:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "30U"
+                },
+                "position": {
+                    "latitude": 45.026248931884766,
+                    "longitude": 7.801819801330566,
+                    "bearing": 132
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "824",
+                    "label": "1156"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1238",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455379U",
+                    "startTime": "10:15:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "32U"
+                },
+                "position": {
+                    "latitude": 45.09421920776367,
+                    "longitude": 7.630539894104004,
+                    "bearing": 229
+                },
+                "timestamp": "1740908735",
+                "vehicle": {
+                    "id": "1238",
+                    "label": "16238"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2406",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455423U",
+                    "startTime": "10:13:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "33U"
+                },
+                "position": {
+                    "latitude": 45.072200775146484,
+                    "longitude": 7.628849983215332,
+                    "bearing": 289
+                },
+                "timestamp": "1740908700",
+                "vehicle": {
+                    "id": "2406",
+                    "label": "2406"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2423",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455441U",
+                    "startTime": "10:37:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "33U"
+                },
+                "position": {
+                    "latitude": 45.062740325927734,
+                    "longitude": 7.679080009460449,
+                    "bearing": 297
+                },
+                "timestamp": "1740908727",
+                "vehicle": {
+                    "id": "2423",
+                    "label": "2423"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2402",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455449U",
+                    "startTime": "10:06:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "33U"
+                },
+                "position": {
+                    "latitude": 45.06325149536133,
+                    "longitude": 7.673110008239746,
+                    "bearing": 81
+                },
+                "timestamp": "1740908714",
+                "vehicle": {
+                    "id": "2402",
+                    "label": "2402"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2444",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455466U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "33U"
+                },
+                "position": {
+                    "latitude": 45.07387161254883,
+                    "longitude": 7.604650020599365,
+                    "bearing": 0
+                },
+                "timestamp": "1740908737",
+                "vehicle": {
+                    "id": "2444",
+                    "label": "2444"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2417",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455399U",
+                    "startTime": "10:54:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "33U"
+                },
+                "position": {
+                    "latitude": 45.078521728515625,
+                    "longitude": 7.573460102081299,
+                    "bearing": 180
+                },
+                "timestamp": "1740908743",
+                "vehicle": {
+                    "id": "2417",
+                    "label": "2417"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3065",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455598U",
+                    "startTime": "10:38:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "35U"
+                },
+                "position": {
+                    "latitude": 45.01662826538086,
+                    "longitude": 7.661890029907227,
+                    "bearing": 199
+                },
+                "timestamp": "1740908739",
+                "vehicle": {
+                    "id": "3065",
+                    "label": "3065"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3033",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455511U",
+                    "startTime": "10:54:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "35U"
+                },
+                "position": {
+                    "latitude": 45.01493835449219,
+                    "longitude": 7.648590087890625,
+                    "bearing": 0
+                },
+                "timestamp": "1740908740",
+                "vehicle": {
+                    "id": "3033",
+                    "label": "3033"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3041",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455525U",
+                    "startTime": "10:36:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "35U"
+                },
+                "position": {
+                    "latitude": 45.00531005859375,
+                    "longitude": 7.657149791717529,
+                    "bearing": 8
+                },
+                "timestamp": "1740908743",
+                "vehicle": {
+                    "id": "3041",
+                    "label": "3041"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3345",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455571U",
+                    "startTime": "10:22:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "35U"
+                },
+                "position": {
+                    "latitude": 44.99340057373047,
+                    "longitude": 7.643929958343506,
+                    "bearing": 322
+                },
+                "timestamp": "1740908709",
+                "vehicle": {
+                    "id": "3345",
+                    "label": "3345"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "16316",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455618U",
+                    "startTime": "10:38:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "35NU"
+                },
+                "position": {
+                    "latitude": 44.99272918701172,
+                    "longitude": 7.644130229949951,
+                    "bearing": 35
+                },
+                "timestamp": "1740908746",
+                "vehicle": {
+                    "id": "16316",
+                    "label": "16316"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "822",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455659U",
+                    "startTime": "10:15:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "36U"
+                },
+                "position": {
+                    "latitude": 45.07106018066406,
+                    "longitude": 7.5358099937438965,
+                    "bearing": 270
+                },
+                "timestamp": "1740908731",
+                "vehicle": {
+                    "id": "822",
+                    "label": "822"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2447",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455822U",
+                    "startTime": "10:41:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "38U"
+                },
+                "position": {
+                    "latitude": 45.065399169921875,
+                    "longitude": 7.57351016998291,
+                    "bearing": 181
+                },
+                "timestamp": "1740908728",
+                "vehicle": {
+                    "id": "2447",
+                    "label": "2447"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2441",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455848U",
+                    "startTime": "10:19:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "38U"
+                },
+                "position": {
+                    "latitude": 45.024749755859375,
+                    "longitude": 7.591609954833984,
+                    "bearing": 1
+                },
+                "timestamp": "1740908746",
+                "vehicle": {
+                    "id": "2441",
+                    "label": "2441"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2435",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455839U",
+                    "startTime": "10:01:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "38U"
+                },
+                "position": {
+                    "latitude": 45.010501861572266,
+                    "longitude": 7.6381001472473145,
+                    "bearing": 109
+                },
+                "timestamp": "1740908740",
+                "vehicle": {
+                    "id": "2435",
+                    "label": "2435"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3322",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455871U",
+                    "startTime": "10:40:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "39U"
+                },
+                "position": {
+                    "latitude": 45.003028869628906,
+                    "longitude": 7.67588996887207,
+                    "bearing": 316
+                },
+                "timestamp": "1740908729",
+                "vehicle": {
+                    "id": "3322",
+                    "label": "3322"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "564",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455910U",
+                    "startTime": "10:38:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "4U"
+                },
+                "position": {
+                    "latitude": 45.05855178833008,
+                    "longitude": 7.674650192260742,
+                    "bearing": 32
+                },
+                "timestamp": "1740908730",
+                "vehicle": {
+                    "id": "564",
+                    "label": "6026"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "671",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455928U",
+                    "startTime": "10:03:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "4U"
+                },
+                "position": {
+                    "latitude": 45.063350677490234,
+                    "longitude": 7.67726993560791,
+                    "bearing": 146
+                },
+                "timestamp": "1740908646",
+                "vehicle": {
+                    "id": "671",
+                    "label": "6032"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "557",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455941U",
+                    "startTime": "10:21:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "4U"
+                },
+                "position": {
+                    "latitude": 45.087318420410156,
+                    "longitude": 7.6905999183654785,
+                    "bearing": 25
+                },
+                "timestamp": "1740908722",
+                "vehicle": {
+                    "id": "557",
+                    "label": "6024"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "462",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26455966U",
+                    "startTime": "10:20:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "4U"
+                },
+                "position": {
+                    "latitude": 45.10055160522461,
+                    "longitude": 7.699349880218506,
+                    "bearing": 188
+                },
+                "timestamp": "1740908740",
+                "vehicle": {
+                    "id": "462",
+                    "label": "6012"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1193",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456000U",
+                    "startTime": "09:47:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "4U"
+                },
+                "position": {
+                    "latitude": 45.12897872924805,
+                    "longitude": 7.707880020141602,
+                    "bearing": 101
+                },
+                "timestamp": "1740908727",
+                "vehicle": {
+                    "id": "1193",
+                    "label": "6052"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "532",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456025U",
+                    "startTime": "10:04:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "4U"
+                },
+                "position": {
+                    "latitude": 45.12569046020508,
+                    "longitude": 7.71491003036499,
+                    "bearing": 30
+                },
+                "timestamp": "1740908720",
+                "vehicle": {
+                    "id": "532",
+                    "label": "6018"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1305",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456203U",
+                    "startTime": "10:28:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "41U"
+                },
+                "position": {
+                    "latitude": 45.023380279541016,
+                    "longitude": 7.646249771118164,
+                    "bearing": 116
+                },
+                "timestamp": "1740908707",
+                "vehicle": {
+                    "id": "1305",
+                    "label": "19005"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1318",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456185U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "41U"
+                },
+                "position": {
+                    "latitude": 45.008480072021484,
+                    "longitude": 7.619070053100586,
+                    "bearing": 217
+                },
+                "timestamp": "1740908691",
+                "vehicle": {
+                    "id": "1318",
+                    "label": "19018"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3407",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456243U",
+                    "startTime": "10:22:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "42U"
+                },
+                "position": {
+                    "latitude": 45.06399917602539,
+                    "longitude": 7.651360034942627,
+                    "bearing": 298
+                },
+                "timestamp": "1740908727",
+                "vehicle": {
+                    "id": "3407",
+                    "label": "3407"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3403",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456297U",
+                    "startTime": "10:42:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "42U"
+                },
+                "position": {
+                    "latitude": 45.04018020629883,
+                    "longitude": 7.676350116729736,
+                    "bearing": 358
+                },
+                "timestamp": "1740908733",
+                "vehicle": {
+                    "id": "3403",
+                    "label": "3403"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3429",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456309U",
+                    "startTime": "10:24:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "42U"
+                },
+                "position": {
+                    "latitude": 45.05474853515625,
+                    "longitude": 7.663390159606934,
+                    "bearing": 205
+                },
+                "timestamp": "1740908742",
+                "vehicle": {
+                    "id": "3429",
+                    "label": "3429"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3409",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456254U",
+                    "startTime": "10:44:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "42U"
+                },
+                "position": {
+                    "latitude": 45.07181930541992,
+                    "longitude": 7.623390197753906,
+                    "bearing": 354
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "3409",
+                    "label": "3409"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9258",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456378U",
+                    "startTime": "10:46:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "43U"
+                },
+                "position": {
+                    "latitude": 45.00001907348633,
+                    "longitude": 7.678840160369873,
+                    "bearing": 144
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "9258",
+                    "label": "9258"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2418",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456352U",
+                    "startTime": "10:28:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "43U"
+                },
+                "position": {
+                    "latitude": 45.02906036376953,
+                    "longitude": 7.582079887390137,
+                    "bearing": 80
+                },
+                "timestamp": "1740908741",
+                "vehicle": {
+                    "id": "2418",
+                    "label": "2418"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9051",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456403U",
+                    "startTime": "10:42:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "44U"
+                },
+                "position": {
+                    "latitude": 45.04536056518555,
+                    "longitude": 7.615890026092529,
+                    "bearing": 295
+                },
+                "timestamp": "1740908725",
+                "vehicle": {
+                    "id": "9051",
+                    "label": "9051"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9050",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456407U",
+                    "startTime": "10:42:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "44U"
+                },
+                "position": {
+                    "latitude": 45.08866882324219,
+                    "longitude": 7.574689865112305,
+                    "bearing": 100
+                },
+                "timestamp": "1740908725",
+                "vehicle": {
+                    "id": "9050",
+                    "label": "9050"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3024",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456454U",
+                    "startTime": "10:40:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "45U"
+                },
+                "position": {
+                    "latitude": 44.96809005737305,
+                    "longitude": 7.774660110473633,
+                    "bearing": 8
+                },
+                "timestamp": "1740908719",
+                "vehicle": {
+                    "id": "3024",
+                    "label": "3024"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3011",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456465U",
+                    "startTime": "10:40:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "45U"
+                },
+                "position": {
+                    "latitude": 45.010921478271484,
+                    "longitude": 7.666029930114746,
+                    "bearing": 147
+                },
+                "timestamp": "1740908728",
+                "vehicle": {
+                    "id": "3011",
+                    "label": "3011"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1353",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456500U",
+                    "startTime": "10:39:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "46U"
+                },
+                "position": {
+                    "latitude": 45.15264129638672,
+                    "longitude": 7.7086501121521,
+                    "bearing": 189
+                },
+                "timestamp": "1740908715",
+                "vehicle": {
+                    "id": "1353",
+                    "label": "1353"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1389",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456534U",
+                    "startTime": "10:14:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "46U"
+                },
+                "position": {
+                    "latitude": 45.124149322509766,
+                    "longitude": 7.703649997711182,
+                    "bearing": 359
+                },
+                "timestamp": "1740908708",
+                "vehicle": {
+                    "id": "1389",
+                    "label": "1389"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1354",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456512U",
+                    "startTime": "10:39:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "46U"
+                },
+                "position": {
+                    "latitude": 45.08026885986328,
+                    "longitude": 7.671289920806885,
+                    "bearing": 0
+                },
+                "timestamp": "1740908733",
+                "vehicle": {
+                    "id": "1354",
+                    "label": "1354"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "110",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456624U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "47U"
+                },
+                "position": {
+                    "latitude": 45.04233169555664,
+                    "longitude": 7.672339916229248,
+                    "bearing": 270
+                },
+                "timestamp": "1740908742",
+                "vehicle": {
+                    "id": "110",
+                    "label": "110"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9099",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456687U",
+                    "startTime": "09:57:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "49U"
+                },
+                "position": {
+                    "latitude": 45.146270751953125,
+                    "longitude": 7.784969806671143,
+                    "bearing": 0
+                },
+                "timestamp": "1740908734",
+                "vehicle": {
+                    "id": "9099",
+                    "label": "9099"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9070",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456704U",
+                    "startTime": "10:23:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "49U"
+                },
+                "position": {
+                    "latitude": 45.09661102294922,
+                    "longitude": 7.71904993057251,
+                    "bearing": 223
+                },
+                "timestamp": "1740908705",
+                "vehicle": {
+                    "id": "9070",
+                    "label": "9070"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2037",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456724U",
+                    "startTime": "10:23:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "49U"
+                },
+                "position": {
+                    "latitude": 45.09877014160156,
+                    "longitude": 7.722179889678955,
+                    "bearing": 270
+                },
+                "timestamp": "1740908738",
+                "vehicle": {
+                    "id": "2037",
+                    "label": "37"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2046",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456762U",
+                    "startTime": "09:57:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "49U"
+                },
+                "position": {
+                    "latitude": 45.07918930053711,
+                    "longitude": 7.675610065460205,
+                    "bearing": 121
+                },
+                "timestamp": "1740908736",
+                "vehicle": {
+                    "id": "2046",
+                    "label": "46"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9311",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456061U",
+                    "startTime": "10:18:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "4NU"
+                },
+                "position": {
+                    "latitude": 45.05820846557617,
+                    "longitude": 7.674220085144043,
+                    "bearing": 29
+                },
+                "timestamp": "1740908746",
+                "vehicle": {
+                    "id": "9311",
+                    "label": "9311"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9315",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456108U",
+                    "startTime": "10:42:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "4NU"
+                },
+                "position": {
+                    "latitude": 45.01993942260742,
+                    "longitude": 7.6322197914123535,
+                    "bearing": 334
+                },
+                "timestamp": "1740908748",
+                "vehicle": {
+                    "id": "9315",
+                    "label": "9315"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9338",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456124U",
+                    "startTime": "10:23:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "4NU"
+                },
+                "position": {
+                    "latitude": 45.023658752441406,
+                    "longitude": 7.636169910430908,
+                    "bearing": 234
+                },
+                "timestamp": "1740908746",
+                "vehicle": {
+                    "id": "9338",
+                    "label": "9338"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9307",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456780U",
+                    "startTime": "10:02:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "5U"
+                },
+                "position": {
+                    "latitude": 45.0629997253418,
+                    "longitude": 7.6691999435424805,
+                    "bearing": 26
+                },
+                "timestamp": "1740908734",
+                "vehicle": {
+                    "id": "9307",
+                    "label": "9307"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9312",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456787U",
+                    "startTime": "09:18:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "5U"
+                },
+                "position": {
+                    "latitude": 45.03031921386719,
+                    "longitude": 7.603559970855713,
+                    "bearing": 181
+                },
+                "timestamp": "1740908716",
+                "vehicle": {
+                    "id": "9312",
+                    "label": "9312"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9325",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456817U",
+                    "startTime": "09:42:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "5U"
+                },
+                "position": {
+                    "latitude": 45.010501861572266,
+                    "longitude": 7.533720016479492,
+                    "bearing": 29
+                },
+                "timestamp": "1740908712",
+                "vehicle": {
+                    "id": "9325",
+                    "label": "9325"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9335",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456830U",
+                    "startTime": "10:06:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "5U"
+                },
+                "position": {
+                    "latitude": 45.01232147216797,
+                    "longitude": 7.559390068054199,
+                    "bearing": 244
+                },
+                "timestamp": "1740908735",
+                "vehicle": {
+                    "id": "9335",
+                    "label": "9335"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9328",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456801U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "5U"
+                },
+                "position": {
+                    "latitude": 45.0411491394043,
+                    "longitude": 7.636109828948975,
+                    "bearing": 235
+                },
+                "timestamp": "1740908749",
+                "vehicle": {
+                    "id": "9328",
+                    "label": "9328"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1650",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456913U",
+                    "startTime": "10:15:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "50U"
+                },
+                "position": {
+                    "latitude": 45.07630157470703,
+                    "longitude": 7.686800003051758,
+                    "bearing": 20
+                },
+                "timestamp": "1740908726",
+                "vehicle": {
+                    "id": "1650",
+                    "label": "14650"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1651",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456935U",
+                    "startTime": "10:40:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "50U"
+                },
+                "position": {
+                    "latitude": 45.127288818359375,
+                    "longitude": 7.7082600593566895,
+                    "bearing": 272
+                },
+                "timestamp": "1740908736",
+                "vehicle": {
+                    "id": "1651",
+                    "label": "14651"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1652",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456873U",
+                    "startTime": "10:20:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "50U"
+                },
+                "position": {
+                    "latitude": 45.13151168823242,
+                    "longitude": 7.713640213012695,
+                    "bearing": 330
+                },
+                "timestamp": "1740908746",
+                "vehicle": {
+                    "id": "1652",
+                    "label": "14652"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2414",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457020U",
+                    "startTime": "10:06:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "55U"
+                },
+                "position": {
+                    "latitude": 45.06568908691406,
+                    "longitude": 7.676790237426758,
+                    "bearing": 117
+                },
+                "timestamp": "1740908740",
+                "vehicle": {
+                    "id": "2414",
+                    "label": "2414"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2420",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456988U",
+                    "startTime": "10:29:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "55U"
+                },
+                "position": {
+                    "latitude": 45.051761627197266,
+                    "longitude": 7.649970054626465,
+                    "bearing": 25
+                },
+                "timestamp": "1740908728",
+                "vehicle": {
+                    "id": "2420",
+                    "label": "2420"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2436",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26456998U",
+                    "startTime": "10:51:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "55U"
+                },
+                "position": {
+                    "latitude": 45.044490814208984,
+                    "longitude": 7.617330074310303,
+                    "bearing": 0
+                },
+                "timestamp": "1740908740",
+                "vehicle": {
+                    "id": "2436",
+                    "label": "2436"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2409",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457046U",
+                    "startTime": "10:17:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "55U"
+                },
+                "position": {
+                    "latitude": 45.06956100463867,
+                    "longitude": 7.6600799560546875,
+                    "bearing": 296
+                },
+                "timestamp": "1740908726",
+                "vehicle": {
+                    "id": "2409",
+                    "label": "2409"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3400",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457108U",
+                    "startTime": "09:58:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "56U"
+                },
+                "position": {
+                    "latitude": 45.07316970825195,
+                    "longitude": 7.6699700355529785,
+                    "bearing": 111
+                },
+                "timestamp": "1740908734",
+                "vehicle": {
+                    "id": "3400",
+                    "label": "3400"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3412",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457123U",
+                    "startTime": "10:18:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "56U"
+                },
+                "position": {
+                    "latitude": 45.0702018737793,
+                    "longitude": 7.6554999351501465,
+                    "bearing": 6
+                },
+                "timestamp": "1740908714",
+                "vehicle": {
+                    "id": "3412",
+                    "label": "3412"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3440",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457142U",
+                    "startTime": "10:38:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "56U"
+                },
+                "position": {
+                    "latitude": 45.06372833251953,
+                    "longitude": 7.60876989364624,
+                    "bearing": 128
+                },
+                "timestamp": "1740908733",
+                "vehicle": {
+                    "id": "3440",
+                    "label": "3440"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3427",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457066U",
+                    "startTime": "10:00:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "56U"
+                },
+                "position": {
+                    "latitude": 45.05253982543945,
+                    "longitude": 7.623509883880615,
+                    "bearing": 247
+                },
+                "timestamp": "1740908736",
+                "vehicle": {
+                    "id": "3427",
+                    "label": "3427"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3418",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457074U",
+                    "startTime": "09:18:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "56U"
+                },
+                "position": {
+                    "latitude": 45.067420959472656,
+                    "longitude": 7.696889877319336,
+                    "bearing": 322
+                },
+                "timestamp": "1740908739",
+                "vehicle": {
+                    "id": "3418",
+                    "label": "3418"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3436",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457099U",
+                    "startTime": "10:41:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "56U"
+                },
+                "position": {
+                    "latitude": 45.063289642333984,
+                    "longitude": 7.697790145874023,
+                    "bearing": 304
+                },
+                "timestamp": "1740908748",
+                "vehicle": {
+                    "id": "3436",
+                    "label": "3436"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9041",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457201U",
+                    "startTime": "10:44:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "58BU"
+                },
+                "position": {
+                    "latitude": 45.044029235839844,
+                    "longitude": 7.626959800720215,
+                    "bearing": 116
+                },
+                "timestamp": "1740908713",
+                "vehicle": {
+                    "id": "9041",
+                    "label": "9041"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9027",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457205U",
+                    "startTime": "10:33:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "58BU"
+                },
+                "position": {
+                    "latitude": 45.06066131591797,
+                    "longitude": 7.661399841308594,
+                    "bearing": 208
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "9027",
+                    "label": "9027"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9006",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457171U",
+                    "startTime": "10:20:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "58BU"
+                },
+                "position": {
+                    "latitude": 45.06156921386719,
+                    "longitude": 7.674270153045654,
+                    "bearing": 115
+                },
+                "timestamp": "1740908738",
+                "vehicle": {
+                    "id": "9006",
+                    "label": "9006"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9119",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457254U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "59U"
+                },
+                "position": {
+                    "latitude": 45.096439361572266,
+                    "longitude": 7.64208984375,
+                    "bearing": 287
+                },
+                "timestamp": "1740908747",
+                "vehicle": {
+                    "id": "9119",
+                    "label": "9119"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3370",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457261U",
+                    "startTime": "10:15:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "59U"
+                },
+                "position": {
+                    "latitude": 45.076541900634766,
+                    "longitude": 7.669300079345703,
+                    "bearing": 162
+                },
+                "timestamp": "1740908747",
+                "vehicle": {
+                    "id": "3370",
+                    "label": "3370"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9111",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457294U",
+                    "startTime": "10:45:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "59U"
+                },
+                "position": {
+                    "latitude": 45.136051177978516,
+                    "longitude": 7.576819896697998,
+                    "bearing": 0
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "9111",
+                    "label": "9111"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2043",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457316U",
+                    "startTime": "10:00:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "6U"
+                },
+                "position": {
+                    "latitude": 45.065608978271484,
+                    "longitude": 7.688419818878174,
+                    "bearing": 28
+                },
+                "timestamp": "1740908675",
+                "vehicle": {
+                    "id": "2043",
+                    "label": "43"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9074",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457450U",
+                    "startTime": "10:48:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "60U"
+                },
+                "position": {
+                    "latitude": 45.073760986328125,
+                    "longitude": 7.666999816894531,
+                    "bearing": 0
+                },
+                "timestamp": "1740908733",
+                "vehicle": {
+                    "id": "9074",
+                    "label": "9074"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9112",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457432U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "60U"
+                },
+                "position": {
+                    "latitude": 45.10837173461914,
+                    "longitude": 7.663119792938232,
+                    "bearing": 104
+                },
+                "timestamp": "1740908748",
+                "vehicle": {
+                    "id": "9112",
+                    "label": "9112"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3373",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457376U",
+                    "startTime": "10:27:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "60U"
+                },
+                "position": {
+                    "latitude": 45.10551071166992,
+                    "longitude": 7.663229942321777,
+                    "bearing": 274
+                },
+                "timestamp": "1740908714",
+                "vehicle": {
+                    "id": "3373",
+                    "label": "3373"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9208",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457495U",
+                    "startTime": "10:38:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "61U"
+                },
+                "position": {
+                    "latitude": 45.09777069091797,
+                    "longitude": 7.75931978225708,
+                    "bearing": 233
+                },
+                "timestamp": "1740908727",
+                "vehicle": {
+                    "id": "9208",
+                    "label": "9208"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9227",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457517U",
+                    "startTime": "10:22:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "61U"
+                },
+                "position": {
+                    "latitude": 45.09299087524414,
+                    "longitude": 7.751930236816406,
+                    "bearing": 66
+                },
+                "timestamp": "1740908738",
+                "vehicle": {
+                    "id": "9227",
+                    "label": "9227"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2403",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457584U",
+                    "startTime": "09:51:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "62U"
+                },
+                "position": {
+                    "latitude": 45.024600982666016,
+                    "longitude": 7.6363701820373535,
+                    "bearing": 180
+                },
+                "timestamp": "1740908733",
+                "vehicle": {
+                    "id": "2403",
+                    "label": "2403"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3356",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457603U",
+                    "startTime": "10:23:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "62U"
+                },
+                "position": {
+                    "latitude": 45.105308532714844,
+                    "longitude": 7.646420001983643,
+                    "bearing": 0
+                },
+                "timestamp": "1740908738",
+                "vehicle": {
+                    "id": "3356",
+                    "label": "3356"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3376",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457620U",
+                    "startTime": "10:50:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "62U"
+                },
+                "position": {
+                    "latitude": 45.094940185546875,
+                    "longitude": 7.716629981994629,
+                    "bearing": 132
+                },
+                "timestamp": "1740908704",
+                "vehicle": {
+                    "id": "3376",
+                    "label": "3376"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3371",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457627U",
+                    "startTime": "10:19:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "62U"
+                },
+                "position": {
+                    "latitude": 45.082191467285156,
+                    "longitude": 7.6242899894714355,
+                    "bearing": 22
+                },
+                "timestamp": "1740908717",
+                "vehicle": {
+                    "id": "3371",
+                    "label": "3371"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9059",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457655U",
+                    "startTime": "10:44:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "63U"
+                },
+                "position": {
+                    "latitude": 45.01702117919922,
+                    "longitude": 7.609930038452148,
+                    "bearing": 215
+                },
+                "timestamp": "1740908741",
+                "vehicle": {
+                    "id": "9059",
+                    "label": "9059"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2405",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457685U",
+                    "startTime": "10:23:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "63U"
+                },
+                "position": {
+                    "latitude": 45.02626037597656,
+                    "longitude": 7.653049945831299,
+                    "bearing": 295
+                },
+                "timestamp": "1740908748",
+                "vehicle": {
+                    "id": "2405",
+                    "label": "2405"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2400",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457694U",
+                    "startTime": "10:10:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "63U"
+                },
+                "position": {
+                    "latitude": 45.068199157714844,
+                    "longitude": 7.6769700050354,
+                    "bearing": 30
+                },
+                "timestamp": "1740908709",
+                "vehicle": {
+                    "id": "2400",
+                    "label": "2400"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9032",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457732U",
+                    "startTime": "10:25:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "63BU"
+                },
+                "position": {
+                    "latitude": 45.01897048950195,
+                    "longitude": 7.6113600730896,
+                    "bearing": 25
+                },
+                "timestamp": "1740908731",
+                "vehicle": {
+                    "id": "9032",
+                    "label": "9032"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9007",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457746U",
+                    "startTime": "10:43:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "63BU"
+                },
+                "position": {
+                    "latitude": 45.02785110473633,
+                    "longitude": 7.640900135040283,
+                    "bearing": 257
+                },
+                "timestamp": "1740908709",
+                "vehicle": {
+                    "id": "9007",
+                    "label": "9007"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9039",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457798U",
+                    "startTime": "10:54:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "63BU"
+                },
+                "position": {
+                    "latitude": 45.02439880371094,
+                    "longitude": 7.636300086975098,
+                    "bearing": 0
+                },
+                "timestamp": "1740908746",
+                "vehicle": {
+                    "id": "9039",
+                    "label": "9039"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3428",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457824U",
+                    "startTime": "10:31:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "64U"
+                },
+                "position": {
+                    "latitude": 45.06752014160156,
+                    "longitude": 7.607399940490723,
+                    "bearing": 110
+                },
+                "timestamp": "1740908741",
+                "vehicle": {
+                    "id": "3428",
+                    "label": "3428"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3402",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457910U",
+                    "startTime": "10:25:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "64U"
+                },
+                "position": {
+                    "latitude": 45.06435012817383,
+                    "longitude": 7.626870155334473,
+                    "bearing": 274
+                },
+                "timestamp": "1740908746",
+                "vehicle": {
+                    "id": "3402",
+                    "label": "3402"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3439",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457864U",
+                    "startTime": "10:07:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "64U"
+                },
+                "position": {
+                    "latitude": 45.06216812133789,
+                    "longitude": 7.680990219116211,
+                    "bearing": 270
+                },
+                "timestamp": "1740908733",
+                "vehicle": {
+                    "id": "3439",
+                    "label": "3439"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3423",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457941U",
+                    "startTime": "10:25:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "65U"
+                },
+                "position": {
+                    "latitude": 45.08219909667969,
+                    "longitude": 7.613900184631348,
+                    "bearing": 92
+                },
+                "timestamp": "1740908724",
+                "vehicle": {
+                    "id": "3423",
+                    "label": "3423"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3401",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26457990U",
+                    "startTime": "10:50:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "65U"
+                },
+                "position": {
+                    "latitude": 45.073299407958984,
+                    "longitude": 7.667640209197998,
+                    "bearing": 198
+                },
+                "timestamp": "1740908714",
+                "vehicle": {
+                    "id": "3401",
+                    "label": "3401"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3080",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458011U",
+                    "startTime": "10:24:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "67U"
+                },
+                "position": {
+                    "latitude": 45.031028747558594,
+                    "longitude": 7.678599834442139,
+                    "bearing": 18
+                },
+                "timestamp": "1740908742",
+                "vehicle": {
+                    "id": "3080",
+                    "label": "3080"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3344",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458025U",
+                    "startTime": "10:46:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "67U"
+                },
+                "position": {
+                    "latitude": 44.996578216552734,
+                    "longitude": 7.710350036621094,
+                    "bearing": 0
+                },
+                "timestamp": "1740908717",
+                "vehicle": {
+                    "id": "3344",
+                    "label": "3344"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3346",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458039U",
+                    "startTime": "09:50:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "67U"
+                },
+                "position": {
+                    "latitude": 0,
+                    "longitude": 0,
+                    "bearing": 188
+                },
+                "timestamp": "1740908722",
+                "vehicle": {
+                    "id": "3346",
+                    "label": "3346"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3057",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458054U",
+                    "startTime": "10:11:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "67U"
+                },
+                "position": {
+                    "latitude": 45.058021545410156,
+                    "longitude": 7.6832098960876465,
+                    "bearing": 206
+                },
+                "timestamp": "1740908737",
+                "vehicle": {
+                    "id": "3057",
+                    "label": "3057"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3004",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458079U",
+                    "startTime": "10:33:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "67U"
+                },
+                "position": {
+                    "latitude": 45.096649169921875,
+                    "longitude": 7.676030158996582,
+                    "bearing": 210
+                },
+                "timestamp": "1740908719",
+                "vehicle": {
+                    "id": "3004",
+                    "label": "3004"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3071",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458084U",
+                    "startTime": "09:41:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "67U"
+                },
+                "position": {
+                    "latitude": 45.104148864746094,
+                    "longitude": 7.681399822235107,
+                    "bearing": 7
+                },
+                "timestamp": "1740908727",
+                "vehicle": {
+                    "id": "3071",
+                    "label": "3071"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3034",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458096U",
+                    "startTime": "10:02:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "67U"
+                },
+                "position": {
+                    "latitude": 45.071231842041016,
+                    "longitude": 7.6750102043151855,
+                    "bearing": 292
+                },
+                "timestamp": "1740908712",
+                "vehicle": {
+                    "id": "3034",
+                    "label": "3034"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3414",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458147U",
+                    "startTime": "09:56:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "68U"
+                },
+                "position": {
+                    "latitude": 45.086280822753906,
+                    "longitude": 7.733230113983154,
+                    "bearing": 54
+                },
+                "timestamp": "1740908706",
+                "vehicle": {
+                    "id": "3414",
+                    "label": "3414"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3417",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458114U",
+                    "startTime": "09:56:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "68U"
+                },
+                "position": {
+                    "latitude": 45.06990051269531,
+                    "longitude": 7.638299942016602,
+                    "bearing": 324
+                },
+                "timestamp": "1740908719",
+                "vehicle": {
+                    "id": "3417",
+                    "label": "3417"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3425",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458190U",
+                    "startTime": "10:21:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "68U"
+                },
+                "position": {
+                    "latitude": 45.068870544433594,
+                    "longitude": 7.690629959106445,
+                    "bearing": 207
+                },
+                "timestamp": "1740908746",
+                "vehicle": {
+                    "id": "3425",
+                    "label": "3425"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "16314",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458229U",
+                    "startTime": "10:34:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "69U"
+                },
+                "position": {
+                    "latitude": 45.11058044433594,
+                    "longitude": 7.663539886474609,
+                    "bearing": 2
+                },
+                "timestamp": "1740908735",
+                "vehicle": {
+                    "id": "16314",
+                    "label": "16314"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2847",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458254U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "7U"
+                },
+                "position": {
+                    "latitude": 45.073509216308594,
+                    "longitude": 7.6687397956848145,
+                    "bearing": 299
+                },
+                "timestamp": "1740908737",
+                "vehicle": {
+                    "id": "2847",
+                    "label": "2847"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9001",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458331U",
+                    "startTime": "10:35:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "71U"
+                },
+                "position": {
+                    "latitude": 45.035091400146484,
+                    "longitude": 7.624139785766602,
+                    "bearing": 58
+                },
+                "timestamp": "1740908728",
+                "vehicle": {
+                    "id": "9001",
+                    "label": "9001"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9024",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458307U",
+                    "startTime": "10:08:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "71U"
+                },
+                "position": {
+                    "latitude": 45.01945114135742,
+                    "longitude": 7.617390155792236,
+                    "bearing": 119
+                },
+                "timestamp": "1740908711",
+                "vehicle": {
+                    "id": "9024",
+                    "label": "9024"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9036",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458317U",
+                    "startTime": "10:10:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "71U"
+                },
+                "position": {
+                    "latitude": 45.0813102722168,
+                    "longitude": 7.638599872589111,
+                    "bearing": 18
+                },
+                "timestamp": "1740908740",
+                "vehicle": {
+                    "id": "9036",
+                    "label": "9036"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1358",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458387U",
+                    "startTime": "10:10:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "72U"
+                },
+                "position": {
+                    "latitude": 45.073028564453125,
+                    "longitude": 7.670259952545166,
+                    "bearing": 120
+                },
+                "timestamp": "1740908728",
+                "vehicle": {
+                    "id": "1358",
+                    "label": "1358"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1356",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458408U",
+                    "startTime": "10:35:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "72U"
+                },
+                "position": {
+                    "latitude": 45.10615921020508,
+                    "longitude": 7.645130157470703,
+                    "bearing": 178
+                },
+                "timestamp": "1740908727",
+                "vehicle": {
+                    "id": "1356",
+                    "label": "1356"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1369",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458416U",
+                    "startTime": "10:05:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "72U"
+                },
+                "position": {
+                    "latitude": 45.103580474853516,
+                    "longitude": 7.661630153656006,
+                    "bearing": 274
+                },
+                "timestamp": "1740908730",
+                "vehicle": {
+                    "id": "1369",
+                    "label": "1369"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "1377",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458443U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "72U"
+                },
+                "position": {
+                    "latitude": 45.09592056274414,
+                    "longitude": 7.663010120391846,
+                    "bearing": 296
+                },
+                "timestamp": "1740908732",
+                "vehicle": {
+                    "id": "1377",
+                    "label": "1377"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9034",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458522U",
+                    "startTime": "10:30:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "74U"
+                },
+                "position": {
+                    "latitude": 45.034210205078125,
+                    "longitude": 7.644229888916016,
+                    "bearing": 305
+                },
+                "timestamp": "1740908731",
+                "vehicle": {
+                    "id": "9034",
+                    "label": "9034"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "9043",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458525U",
+                    "startTime": "10:15:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "74U"
+                },
+                "position": {
+                    "latitude": 45.02069854736328,
+                    "longitude": 7.666639804840088,
+                    "bearing": 26
+                },
+                "timestamp": "1740908706",
+                "vehicle": {
+                    "id": "9043",
+                    "label": "9043"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2404",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458533U",
+                    "startTime": "10:45:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "74U"
+                },
+                "position": {
+                    "latitude": 45.040279388427734,
+                    "longitude": 7.596129894256592,
+                    "bearing": 123
+                },
+                "timestamp": "1740908743",
+                "vehicle": {
+                    "id": "2404",
+                    "label": "2404"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3374",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458617U",
+                    "startTime": "10:42:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "75U"
+                },
+                "position": {
+                    "latitude": 45.06631851196289,
+                    "longitude": 7.709859848022461,
+                    "bearing": 330
+                },
+                "timestamp": "1740908686",
+                "vehicle": {
+                    "id": "3374",
+                    "label": "3374"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3352",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458641U",
+                    "startTime": "10:09:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "75U"
+                },
+                "position": {
+                    "latitude": 45.07994079589844,
+                    "longitude": 7.700399875640869,
+                    "bearing": 0
+                },
+                "timestamp": "1740908712",
+                "vehicle": {
+                    "id": "3352",
+                    "label": "3352"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3366",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458577U",
+                    "startTime": "10:32:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "75U"
+                },
+                "position": {
+                    "latitude": 45.104679107666016,
+                    "longitude": 7.672550201416016,
+                    "bearing": 95
+                },
+                "timestamp": "1740908717",
+                "vehicle": {
+                    "id": "3366",
+                    "label": "3366"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3372",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458592U",
+                    "startTime": "10:55:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "75U"
+                },
+                "position": {
+                    "latitude": 45.10395050048828,
+                    "longitude": 7.624040126800537,
+                    "bearing": 0
+                },
+                "timestamp": "1740908731",
+                "vehicle": {
+                    "id": "3372",
+                    "label": "3372"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2408",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458711U",
+                    "startTime": "10:32:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "76U"
+                },
+                "position": {
+                    "latitude": 45.07590866088867,
+                    "longitude": 7.591819763183594,
+                    "bearing": 284
+                },
+                "timestamp": "1740908733",
+                "vehicle": {
+                    "id": "2408",
+                    "label": "2408"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2410",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458663U",
+                    "startTime": "10:26:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "76U"
+                },
+                "position": {
+                    "latitude": 45.06460952758789,
+                    "longitude": 7.588250160217285,
+                    "bearing": 280
+                },
+                "timestamp": "1740908699",
+                "vehicle": {
+                    "id": "2410",
+                    "label": "2410"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "2422",
+            "vehicle": {
+                "trip": {
+                    "tripId": "26458689U",
+                    "startTime": "10:49:00",
+                    "startDate": "20250302",
+                    "scheduleRelationship": "SCHEDULED",
+                    "routeId": "76U"
+                },
+                "position": {
+                    "latitude": 45.09278106689453,
+                    "longitude": 7.571710109710693,
+                    "bearing": 269
+                },
+                "timestamp": "1740908748",
+                "vehicle": {
+                    "id": "2422",
+                    "label": "2422"
+                },
+                "occupancyStatus": "FEW_SEATS_AVAILABLE"
+            }
+        }
+    ]
+}

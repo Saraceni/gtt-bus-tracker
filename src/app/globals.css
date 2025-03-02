@@ -17,8 +17,18 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+
+/* Fix for Leaflet popup styles */
+.leaflet-popup-content-wrapper {
+  border-radius: 4px;
+}
+
+.leaflet-popup-content {
+  margin: 12px;
+  line-height: 1.5;
+}
+
+.leaflet-container {
+  font: inherit;
 }
