@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "GTT Bus Tracker",
-  description: "GTT Bus Tracker",
+  description: "Visualizza i bus in movimento sulla mappa di Torino",
 };
 
 export default function RootLayout({

@@ -23,7 +23,7 @@ const BusMap = dynamic(() => import("@/components/bus-map"), {
 })
 
 const mockedData = require('./mocked-data.json')
-const useMockedData = true
+const useMockedData = false
 
 export default function Home() {
   const [selectedLines, setSelectedLines] = useState<string[]>([])
