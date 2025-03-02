@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 import fetch from "node-fetch";
 
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     const response = await fetch("http://percorsieorari.gtt.to.it/das_gtfsrt/vehicle_position.aspx");
     if (!response.ok) {
