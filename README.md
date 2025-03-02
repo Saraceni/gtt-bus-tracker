@@ -1,4 +1,16 @@
+# Torino Bus Tracker
+
+A real-time interactive map application that displays the current locations of public transportation vehicles throughout Torino. This project provides residents and visitors with up-to-date information on bus movements across the city's transit network.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Data Source
+
+This project uses the official GTFS Real-Time feed provided by GTT through the City of Torino's open data portal:
+
+- Feed: [GTFSRT posizione mezzi GTT](http://aperto.comune.torino.it/dataset/feed-gtfs-real-time-trasporti-gtt/resource/65084c1e-cfca-4232-9509-d949f6a70d33)
+- Direct URL: [http://percorsieorari.gtt.to.it/das_gtfsrt/vehicle_position.aspx](http://percorsieorari.gtt.to.it/das_gtfsrt/vehicle_position.aspx)
+- License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Getting Started
 
