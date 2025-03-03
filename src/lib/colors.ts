@@ -1,56 +1,22 @@
-// export const lineColors = [
-//     "#845ec2",
-//     "#d65db1",
-//     "#ff6f91",
-//     "#ff9671",
-//     "#ffc75f",
-//     "#f9f871",
-//     "#2c73d2",
-//     "#0081cf",
-//     "#0089ba",
-//     "#008e9b",
-//     "#008f7a",
-//     "#b39cd0",
-//     "#fbeaff",
-//     "#00c9a7"
-// ]
 
-const hslToHex = (h: number, s: number, l: number) => {
-    s /= 100;
-    l /= 100;
-
-    let c = (1 - Math.abs(2 * l - 1)) * s;
-    let x = c * (1 - Math.abs((h / 60) % 2 - 1));
-    let m = l - c / 2;
-    
-    let r = 0, g = 0, b = 0;
-
-    if (h < 60) { r = c; g = x; }
-    else if (h < 120) { r = x; g = c; }
-    else if (h < 180) { g = c; b = x; }
-    else if (h < 240) { g = x; b = c; }
-    else if (h < 300) { r = x; b = c; }
-    else { r = c; g = x; }
-
-    r = Math.round((r + m) * 255);
-    g = Math.round((g + m) * 255);
-    b = Math.round((b + m) * 255);
-
-    return `#${r.toString(16).padStart(2, "0")}${g.toString(16).padStart(2, "0")}${b.toString(16).padStart(2, "0")}`;
-}
-
-function generateGradientColorsHex(n = 120, saturation = 90, lightness = 55) {
-    let colors = [];
-    
-    for (let i = 0; i < n; i++) {
-        const rainbowStops = [0, 30, 60, 120, 240, 275, 300]; // Matizes do arco-íris
-        let hue = (i / (n - 1)) * (rainbowStops[rainbowStops.length - 1]); // Interpolação entre os matizes
-        let hexColor = hslToHex(hue, saturation, lightness);
-        colors.push(hexColor);
-    }
-    
-    return colors;
-}
-
-// Gerando as 120 cores únicas em HEX
-export const lineColors = generateGradientColorsHex();
+// Creating 120 unique colors in HEX
+export const lineColors = [
+    // 🔴 Reds
+    "#FF0000", "#B22222", "#DC143C", "#8B0000", "#FF6347", "#FF4500", "#CD5C5C", "#F08080",
+    // 🟠 Oranges
+    "#FF7F50", "#FFA07A", "#FF8C00", "#FFA500", "#E67E22", "#D2691E", "#FF4500", "#FF5722",
+    // 🟡 Yellows
+    "#FFD700", "#FFFF00", "#FFFACD", "#EEE8AA", "#F0E68C", "#FFD400", "#FFC100", "#FFAA00",
+    // 🟢 Greens
+    "#008000", "#006400", "#228B22", "#32CD32", "#00FF00", "#7FFF00", "#ADFF2F", "#66CDAA",
+    // 🔵 Blues
+    "#0000FF", "#0000CD", "#1E90FF", "#4682B4", "#5F9EA0", "#87CEEB", "#00BFFF", "#6495ED",
+    // 🟣 Purples and Lilacs
+    "#8A2BE2", "#9400D3", "#9932CC", "#BA55D3", "#9370DB", "#DDA0DD", "#EE82EE", "#FF00FF",
+    // 🎀 Rosas
+    "#FFC0CB", "#FF69B4", "#FF1493", "#C71585", "#DB7093", "#E75480", "#F28DCE", "#F4A7B9",
+    // 🤎 Browns and Terracotta
+    "#8B4513", "#A0522D", "#D2691E", "#CD853F", "#F4A460", "#DEB887", "#D2B48C", "#BC8F8F",
+    // ⚪ Light and Neutral Tones
+    "#FAEBD7", "#FFE4C4", "#FFDAB9", "#EEDC82", "#FAF0E6", "#FDF5E6", "#FFF5EE", "#FFFFFF"
+];

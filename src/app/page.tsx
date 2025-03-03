@@ -7,7 +7,7 @@ import MobileMenu from "@/components/mobile-menu"
 import type { BusLine, BusLocation, Entity, FeedMessage } from "@/lib/types"
 import { lineColors } from "@/lib/colors"
 
-const colorsAssignedToLines = lineColors.map((color, index) => ({
+const colorsAssignedToLines = lineColors.map((color) => ({
   lines: [],
   color: color
 })) as { lines: string[], color: string }[]
@@ -33,19 +33,39 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null)
 
   const busLines = busLocations.reduce((acc, bus) => {
-    if (!acc.some(line => line.id === bus.vehicle.trip.routeId)) {
-      var lineColor = colorsAssignedToLines.find(color => color.lines.includes(bus.vehicle.trip.routeId))?.color
-      if (!lineColor) {
-        // Get the least used color
-        lineColor = colorsAssignedToLines.reduce((leastUsed, current) => {
-          return leastUsed.lines.length < current.lines.length ? leastUsed : current
-        }).color
-        colorsAssignedToLines.find(color => color.color === lineColor)?.lines.push(bus.vehicle.trip.routeId)
-      }
-      acc.push({ id: bus.vehicle.trip.routeId, name: bus.vehicle.trip.routeId, color: lineColor });
+    const routeId = bus.vehicle.trip.routeId;
+    
+    // Skip if we already have this line in our accumulator
+    if (acc.some(line => line.id === routeId)) {
+      return acc;
     }
+    
+    // Check if this route already has a color assigned
+    let colorAssignment = colorsAssignedToLines.find(item => item.lines.includes(routeId));
+    
+    // If no color is assigned yet, find the least used color
+    if (!colorAssignment) {
+      // Sort color assignments by usage count (ascending)
+      const sortedColors = [...colorsAssignedToLines].sort((a, b) => a.lines.length - b.lines.length);
+      
+      // Take the first (least used) color
+      colorAssignment = sortedColors[0];
+      
+      // Add this route to the color's assignment list
+      colorAssignment.lines.push(routeId);
+    }
+    
+    // Add the line to our accumulator
+    acc.push({ 
+      id: routeId, 
+      name: routeId, 
+      color: colorAssignment.color 
+    });
+    
     return acc;
   }, [] as BusLine[]);
+
+  console.log(busLines)
 
   // Fetch bus locations from API endpoint every 15 seconds
   useEffect(() => {
