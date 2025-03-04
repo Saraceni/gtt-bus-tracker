@@ -7,7 +7,7 @@ import MobileMenu from "@/components/mobile-menu"
 import type { BusLine, BusLocation, Entity, FeedMessage } from "@/lib/types"
 import { lineColors } from "@/lib/colors"
 import { MapPin } from "lucide-react"
-
+import Image from "next/image"
 const colorsAssignedToLines = lineColors.map((color) => ({
   lines: [],
   color: color
@@ -136,9 +136,13 @@ export default function Home() {
 
   return (
     <div className="flex flex-col w-screen h-screen overflow-hidden relative">
-      <div className="bg-blue-600 text-white p-4 shadow-md">
+      <div className="bg-blue-600 text-white px-4  shadow-md">
         <div className="mx-auto flex justify-between items-center">
-          <div className="text-xl font-bold">GTT Bus Tracker</div>
+          <div className="flex items-center space-x-2">
+            <Image src="/bus.png" alt="App Logo" width={70} height={70} />
+            <div className="text-xl font-bold">GTT Bus Tracker</div>
+          </div>
+
           <button
             className="md:hidden bg-blue-700 p-2 rounded-md"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
