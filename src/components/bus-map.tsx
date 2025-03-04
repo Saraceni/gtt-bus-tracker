@@ -5,13 +5,16 @@ import L from "leaflet"
 import "leaflet/dist/leaflet.css"
 import { useEffect, useRef } from "react"
 import type { BusLocation, BusLine, Entity } from "@/lib/types"
+import { MapPin } from "lucide-react"
+import ReactDOMServer from "react-dom/server"
 
 interface BusMapProps {
   busLocations: Entity[]
   busLines: BusLine[]
+  userLocation: [number, number] | null
 }
 
-export default function BusMap({ busLocations, busLines }: BusMapProps) {
+export default function BusMap({ busLocations, busLines, userLocation }: BusMapProps) {
   // Default center coordinates (city center)
   const center: [number, number] = [45.0707, 7.6839] // Torino coordinates as example
 
@@ -58,13 +61,13 @@ export default function BusMap({ busLocations, busLines }: BusMapProps) {
   const getPositionBasedOnBearing = (bearing: number) => {
     // Normalize bearing to 0-360 range
     const normalizedBearing = ((bearing % 360) + 360) % 360;
-    
+
     // Calculate position
     const radius = 18; // Distance from center
     const angleInRadians = (normalizedBearing * Math.PI) / 180;
     const x = Math.sin(angleInRadians) * radius;
     const y = -Math.cos(angleInRadians) * radius; // Negative because y increases downward in CSS
-    
+
     return `position: absolute; 
             top: 50%; 
             left: 50%; 
@@ -102,6 +105,24 @@ export default function BusMap({ busLocations, busLines }: BusMapProps) {
           </Popup>
         </Marker>
       ))}
+
+      {userLocation && (
+        <Marker position={userLocation} icon={L.divIcon({
+          className: "user-location-icon",
+          html: ReactDOMServer.renderToString(
+            <div className="text-blue-600 inline-flex">
+              <MapPin fill="#FFFFFF" size={40} />
+            </div>
+          ),
+          iconSize: [40, 40],
+          iconAnchor: [20, 40],
+          popupAnchor: [0, -40]
+        })}>
+          <Popup>
+            <div>La tua posizione</div>
+          </Popup>
+        </Marker>
+      )}
     </MapContainer>
   )
 }
