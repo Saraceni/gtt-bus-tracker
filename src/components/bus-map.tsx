@@ -3,23 +3,25 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
 import L from "leaflet"
 import "leaflet/dist/leaflet.css"
-import { useEffect, useRef } from "react"
-import type { BusLocation, BusLine, Entity } from "@/lib/types"
-import { MapPin } from "lucide-react"
+import { useEffect, useRef, useState } from "react"
+import type { BusLocation, BusLine, Entity, Stop, StopTimes } from "@/lib/types"
+import { ArrowRight, CircleDot, Eye, MapPin, MapPinPlus } from "lucide-react"
 import ReactDOMServer from "react-dom/server"
 
 interface BusMapProps {
   busLocations: Entity[]
   busLines: BusLine[]
   userLocation: [number, number] | null
+  stops: Stop[]
+  selectedTrip: { tripId: string, tripColor: string, busId: string, routeId: string } | undefined
+  setSelectedTrip: (trip: { tripId: string, tripColor: string, busId: string, routeId: string } | undefined) => void
 }
 
-export default function BusMap({ busLocations, busLines, userLocation }: BusMapProps) {
+export default function BusMap({ busLocations, busLines, userLocation, stops, selectedTrip, setSelectedTrip }: BusMapProps) {
   // Default center coordinates (city center)
   const center: [number, number] = [45.0707, 7.6839] // Torino coordinates as example
 
   const leafletInitialized = useRef(false)
-
 
   useEffect(() => {
     if (!leafletInitialized.current) {
@@ -33,6 +35,8 @@ export default function BusMap({ busLocations, busLines, userLocation }: BusMapP
       leafletInitialized.current = true
     }
   }, [])
+
+  
 
   // Create custom icons for each bus line
   const getBusIcon = (routeId: string, bearing: number) => {
@@ -91,16 +95,25 @@ export default function BusMap({ busLocations, busLines, userLocation }: BusMapP
       {busLocations.map((bus) => (
         <Marker key={bus.id} position={[bus.vehicle.position.latitude, bus.vehicle.position.longitude]} icon={getBusIcon(bus.vehicle.trip.routeId, bus.vehicle.position.bearing)}>
           <Popup>
-            <div>
-              <h3 className="font-bold">Bus {bus.id}</h3>
-              <p>Linea: {bus.vehicle.trip.routeId}</p>
+            <div className="flex flex-col gap-2">
+              <div>Bus {bus.id}</div>
+              <div>Linea: {bus.vehicle.trip.routeId}</div>
               {/* <p>Direction: {bus.vehicle.position.bearing}</p> */}
-              <p>Ultimo aggiornamento: {new Date(+bus.vehicle.timestamp * 1000).toLocaleTimeString('it-IT', {
+              <div>Ultimo aggiornamento: {new Date(+bus.vehicle.timestamp * 1000).toLocaleTimeString('it-IT', {
                 timeZone: 'Europe/Rome',
                 hour: '2-digit',
                 minute: '2-digit',
                 second: '2-digit'
-              })}</p>
+              })}</div>
+              <button
+                onClick={() => {
+                  setSelectedTrip({ tripId: bus.vehicle.trip.tripId, busId: bus.id, tripColor: busLines.find(line => line.id === bus.vehicle.trip.routeId)?.color || "#3388ff", routeId: bus.vehicle.trip.routeId })
+                }}
+                className="py-1.5 text-black text-md font-bold flex items-center gap-2"
+              >
+                <Eye size={16} />
+                Vedi Fermate
+              </button>
             </div>
           </Popup>
         </Marker>
@@ -123,6 +136,25 @@ export default function BusMap({ busLocations, busLines, userLocation }: BusMapP
           </Popup>
         </Marker>
       )}
+
+      {stops.map((stop) => (
+        <Marker key={stop.stop_id} position={[Number(stop.stop_lat), Number(stop.stop_lon)]} icon={L.divIcon({
+          className: "selected-trip-icon opacity-70",
+          html: ReactDOMServer.renderToString(
+            <div className="inline-flex">
+              <CircleDot fill={selectedTrip?.tripColor} stroke="black" strokeWidth={1} size={20} />
+            </div>
+          ),
+          iconSize: [20, 20],
+          iconAnchor: [10, 10],
+          popupAnchor: [0, -10]
+        })}>
+          <Popup>
+            <div>{stop.stop_name}</div>
+          </Popup>
+        </Marker>
+      ))}
+
     </MapContainer>
   )
 }

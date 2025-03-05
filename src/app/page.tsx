@@ -4,9 +4,9 @@ import { useState, useEffect } from "react"
 import dynamic from "next/dynamic"
 import BusLineSelector from "@/components/bus-line-selector"
 import MobileMenu from "@/components/mobile-menu"
-import type { BusLine, BusLocation, Entity, FeedMessage } from "@/lib/types"
+import type { BusLine, BusLocation, Entity, FeedMessage, Stop, StopTimes } from "@/lib/types"
 import { lineColors } from "@/lib/colors"
-import { MapPin } from "lucide-react"
+import { BusIcon, CircleDot, MapPin, MenuIcon, X } from "lucide-react"
 import Image from "next/image"
 const colorsAssignedToLines = lineColors.map((color) => ({
   lines: [],
@@ -30,10 +30,14 @@ export default function Home() {
 
   const [selectedLines, setSelectedLines] = useState<string[]>([])
   const [busLocations, setBusLocations] = useState<Entity[]>([])
+  const [stops, setStops] = useState<Stop[]>([])
+  const [stopTimes, setStopTimes] = useState<StopTimes[]>([])
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [firstLoad, setFirstLoad] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null)
+  const [isLoading, setIsLoading] = useState(false)
+  const [selectedTrip, setSelectedTrip] = useState<{ tripId: string, tripColor: string, busId: string, routeId: string } | undefined>()
 
   const busLines = busLocations.reduce((acc, bus) => {
     const routeId = bus.vehicle.trip.routeId;
@@ -68,8 +72,24 @@ export default function Home() {
     return acc;
   }, [] as BusLine[]);
 
+  const fetchTripDataForSelectedTrip = async (selectedTripId: string) => {
+    setIsLoading(true)
+    try {
+      const response = await fetch(`/api/stops?tripId=${selectedTripId}`)
+      const data = await response.json()
+      setStopTimes(data.stopTimes)
+      setStops(data.stops)
+    } catch (error) {
+      console.error("Error fetching trip data:", error)
+      setError("Error fetching trip data")
+    } finally {
+      setIsLoading(false)
+    }
+  }
+
   // Fetch bus locations from API endpoint every 15 seconds
   useEffect(() => {
+
     if (useMockedData) {
       setBusLocations(mockedData.entity)
       return
@@ -77,6 +97,7 @@ export default function Home() {
 
     const fetchData = async () => {
       try {
+        setIsLoading(true)
         const response = await fetch('/api/buses')
         if (!response.ok) {
           throw new Error('Failed to fetch bus locations')
@@ -90,6 +111,8 @@ export default function Home() {
       } catch (error) {
         console.error('Error fetching bus locations:', error)
         setError('Errore nel caricamento dei dati')
+      } finally {
+        setIsLoading(false)
       }
     }
 
@@ -105,6 +128,15 @@ export default function Home() {
       setFirstLoad(true)
     }
   }, [busLocations, firstLoad])
+
+  useEffect(() => {
+    if (selectedTrip) {
+      fetchTripDataForSelectedTrip(selectedTrip.tripId)
+    } else {
+      setStopTimes([])
+      setStops([])
+    }
+  }, [selectedTrip])
 
   // Function to get user's current location
   const getUserLocation = () => {
@@ -144,9 +176,10 @@ export default function Home() {
           </div>
 
           <button
-            className="md:hidden bg-blue-700 p-2 rounded-md"
+            className="md:hidden bg-blue-700 py-2 px-[24px] rounded-[15px] flex items-center gap-2 shadow"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
+            <MenuIcon size={24} className="text-white" />
             {isMobileMenuOpen ? "Chiudi" : "Linee"}
           </button>
         </div>
@@ -174,7 +207,7 @@ export default function Home() {
         </MobileMenu>
 
         <div className="flex-1 z-0">
-          <BusMap busLocations={filteredBusLocations} busLines={busLines} userLocation={userLocation} />
+          <BusMap busLocations={filteredBusLocations} busLines={busLines} userLocation={userLocation} stops={stops} selectedTrip={selectedTrip} setSelectedTrip={setSelectedTrip} />
           <div className="absolute bottom-16 right-4 z-[1000]">
             <button
               onClick={getUserLocation}
@@ -194,7 +227,35 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
             </svg>
           </div>
-          <span>{error}</span>
+          <span className="flex-grow">{error}</span>
+          <button
+            onClick={() => setError(null)}
+            className="ml-2 text-red-500 hover:text-red-700 focus:outline-none"
+            aria-label="Close error message"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+            </svg>
+          </button>
+        </div>
+      )}
+
+      {isLoading && (
+        <div className="absolute top-[80px] left-[10px] md:left-[280px] flex items-center justify-center bg-white bg-opacity-50">
+          <div className="flex items-center space-x-3 bg-white px-4 py-2 rounded-lg shadow-md">
+            <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
+            <div className="text-lg font-medium">Caricando dati...</div>
+          </div>
+        </div>
+      )}
+
+      {selectedTrip && (
+        <div className="absolute top-[80px] right-[10px] flex items-center justify-center bg-white opacity-90 rounded shadow">
+          <div className="flex items-center space-x-2 px-4 py-2 rounded-lg shadow-md">
+            <CircleDot fill={selectedTrip?.tripColor} stroke="black" strokeWidth={1} size={20} />
+            <div className="text-sm">Fermate bus <span className="font-bold">{selectedTrip.busId}</span> linea <span className="font-bold">{selectedTrip.routeId.endsWith("U") ? selectedTrip.routeId.slice(0, -1) : selectedTrip.routeId}</span> visibile</div>
+            <div className="cursor-pointer hover:bg-gray-200" onClick={() => setSelectedTrip(undefined)}><X size={24} /></div>
+          </div>
         </div>
       )}
     </div>
