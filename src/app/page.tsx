@@ -168,7 +168,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col w-screen h-screen overflow-hidden relative">
-      <div className="bg-blue-600 text-white px-4  shadow-md">
+      <div className="bg-[#4125C8] text-white px-4  shadow-md">
         <div className="mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <Image src="/bus.png" alt="App Logo" width={70} height={70} />
@@ -176,7 +176,7 @@ export default function Home() {
           </div>
 
           <button
-            className="md:hidden bg-blue-700 py-2 px-[24px] rounded-[15px] flex items-center gap-2 shadow"
+            className="md:hidden bg-[#4125C8] border border-[#3518BD] py-2 px-[20px] rounded-[20px] flex items-center gap-2 shadow-[0_0_1px_2px_rgba(65,37,200,0.2),inset_0_0_0_2px_rgb(85,60,208),inset_0_-2px_2px_rgb(36,11,163)]"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <MenuIcon size={24} className="text-white" />
