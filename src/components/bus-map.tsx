@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react"
 import type { BusLocation, BusLine, Entity, Stop, StopTimes } from "@/lib/types"
 import { ArrowRight, CircleDot, Eye, MapPin, MapPinPlus } from "lucide-react"
 import ReactDOMServer from "react-dom/server"
+import BusStopIcon from "./BusStopIcon"
 
 interface BusMapProps {
   busLocations: Entity[]
@@ -139,15 +140,15 @@ export default function BusMap({ busLocations, busLines, userLocation, stops, se
 
       {stops.map((stop) => (
         <Marker key={stop.stop_id} position={[Number(stop.stop_lat), Number(stop.stop_lon)]} icon={L.divIcon({
-          className: "selected-trip-icon opacity-70",
+          className: "selected-trip-icon opacity-90",
           html: ReactDOMServer.renderToString(
             <div className="inline-flex">
-              <CircleDot fill={selectedTrip?.tripColor} stroke="black" strokeWidth={1} size={20} />
+              <BusStopIcon mainColor={selectedTrip?.tripColor} width="30px" height="30px" />
             </div>
           ),
-          iconSize: [20, 20],
-          iconAnchor: [10, 10],
-          popupAnchor: [0, -10]
+          iconSize: [30, 30],
+          iconAnchor: [15, 15],
+          popupAnchor: [0, -15]
         })}>
           <Popup>
             <div>{stop.stop_name}</div>
