@@ -14,11 +14,12 @@ interface BusMapProps {
   busLines: BusLine[]
   userLocation: [number, number] | null
   stops: Stop[]
+  stopTimes: StopTimes[]
   selectedTrip: { tripId: string, tripColor: string, busId: string, routeId: string } | undefined
   setSelectedTrip: (trip: { tripId: string, tripColor: string, busId: string, routeId: string } | undefined) => void
 }
 
-export default function BusMap({ busLocations, busLines, userLocation, stops, selectedTrip, setSelectedTrip }: BusMapProps) {
+export default function BusMap({ busLocations, busLines, userLocation, stops, stopTimes, selectedTrip, setSelectedTrip }: BusMapProps) {
   // Default center coordinates (city center)
   const center: [number, number] = [45.0707, 7.6839] // Torino coordinates as example
 
@@ -37,7 +38,7 @@ export default function BusMap({ busLocations, busLines, userLocation, stops, se
     }
   }, [])
 
-  
+
 
   // Create custom icons for each bus line
   const getBusIcon = (routeId: string, bearing: number) => {
@@ -138,23 +139,29 @@ export default function BusMap({ busLocations, busLines, userLocation, stops, se
         </Marker>
       )}
 
-      {stops.map((stop) => (
-        <Marker key={stop.stop_id} position={[Number(stop.stop_lat), Number(stop.stop_lon)]} icon={L.divIcon({
-          className: "selected-trip-icon opacity-90",
-          html: ReactDOMServer.renderToString(
-            <div className="inline-flex">
-              <BusStopIcon mainColor={selectedTrip?.tripColor} width="30px" height="30px" />
-            </div>
-          ),
-          iconSize: [30, 30],
-          iconAnchor: [15, 15],
-          popupAnchor: [0, -15]
-        })}>
-          <Popup>
-            <div>{stop.stop_name}</div>
-          </Popup>
-        </Marker>
-      ))}
+      {stops.map((stop) => {
+        const stopTime = stopTimes.find(stopTime => stopTime.stop_id === stop.stop_id)
+        const arrivalTime = stopTime?.arrival_time
+        return (
+          <Marker key={stop.stop_id} position={[Number(stop.stop_lat), Number(stop.stop_lon)]} icon={L.divIcon({
+            className: "selected-trip-icon opacity-90",
+            html: ReactDOMServer.renderToString(
+              <div className="inline-flex">
+                <BusStopIcon mainColor={selectedTrip?.tripColor} width="30px" height="30px" />
+              </div>
+            ),
+            iconSize: [30, 30],
+            iconAnchor: [15, 15],
+            popupAnchor: [0, -15]
+          })}>
+            <Popup>
+              <div>{stop.stop_name}</div>
+              {arrivalTime && <div>Arrivo: {arrivalTime}</div>}
+            </Popup>
+          </Marker>
+        )
+      })
+      }
 
     </MapContainer>
   )

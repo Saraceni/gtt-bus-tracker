@@ -209,7 +209,7 @@ export default function Home() {
         </MobileMenu>
 
         <div className="flex-1 z-0">
-          <BusMap busLocations={filteredBusLocations} busLines={busLines} userLocation={userLocation} stops={stops} selectedTrip={selectedTrip} setSelectedTrip={setSelectedTrip} />
+          <BusMap busLocations={filteredBusLocations} busLines={busLines} userLocation={userLocation} stops={stops} stopTimes={stopTimes} selectedTrip={selectedTrip} setSelectedTrip={setSelectedTrip} />
           <div className="absolute bottom-16 right-4 z-[1000]">
             <button
               onClick={getUserLocation}
