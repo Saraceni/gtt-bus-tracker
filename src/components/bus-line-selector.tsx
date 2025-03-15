@@ -17,20 +17,22 @@ export default function BusLineSelector({
   const allSelected = selectedLines.length === busLines.length
   const someSelected = selectedLines.length > 0 && selectedLines.length < busLines.length
 
+  //#14516e mais escura
+  // #05aced mais clara
   return (
     <div className="flex flex-col h-full overflow-hidden">
       <h2 className="text-lg text-black font-semibold hidden md:block">Linee</h2>
 
-      <div className="flex items-center justify-center mt-4">
+      <div className="flex items-center justify-center mt-4 mx-4 md:mx-0 border border-gray-200 rounded-md shadow-sm">
         <button
           onClick={() => toggleAllLines(true)}
-          className="bg-blue-500 text-white px-3 py-2 md:py-1 rounded-l-md text-sm hover:bg-blue-600 transition-colors"
+          className="bg-[#4125C8] text-white px-3 py-2 md:py-1 rounded-l-md text-sm hover:bg-[#05aced] transition-colors flex-1"
         >
           Seleziona tutte
         </button>
         <button
           onClick={() => toggleAllLines(false)}
-          className="bg-gray-500 text-white px-3 py-2 md:py-1 rounded-r-md text-sm hover:bg-gray-600 transition-colors"
+          className="bg-white text-black px-3 py-2 md:py-1 rounded-r-md text-sm hover:bg-gray-200 transition-colors flex-1"
         >
           Deseleziona tutte
         </button>

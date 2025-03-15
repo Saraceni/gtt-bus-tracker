@@ -19,6 +19,19 @@ interface BusMapProps {
   setSelectedTrip: (trip: { tripId: string, tripColor: string, busId: string, routeId: string } | undefined) => void
 }
 
+// Helper function to convert hex color to RGB for the animation
+const hexToRgb = (hex: string) => {
+  // Remove # if present
+  hex = hex.replace('#', '');
+
+  // Parse the hex values
+  const r = parseInt(hex.substring(0, 2), 16);
+  const g = parseInt(hex.substring(2, 4), 16);
+  const b = parseInt(hex.substring(4, 6), 16);
+
+  return `${r}, ${g}, ${b}`;
+};
+
 export default function BusMap({ busLocations, busLines, userLocation, stops, stopTimes, selectedTrip, setSelectedTrip }: BusMapProps) {
   // Default center coordinates (city center)
   const center: [number, number] = [45.0707, 7.6839] // Torino coordinates as example
@@ -41,27 +54,77 @@ export default function BusMap({ busLocations, busLines, userLocation, stops, st
 
 
   // Create custom icons for each bus line
-  const getBusIcon = (routeId: string, bearing: number) => {
-    const color = busLines.find(line => line.id === routeId)?.color || "#3388ff"
+  const getBusIcon = (routeId: string, bearing: number, isSelectedTrip: boolean) => {
+    const color = busLines.find(line => line.id === routeId)?.color || "#3388ff";
+
+    // Add pulsing effect and larger size for selected trips
+    const selectedStyles = isSelectedTrip
+      ? `
+        animation: pulse 1.5s infinite;
+        width: 40px; 
+        height: 40px; 
+        box-shadow: 0 0 0 rgba(${hexToRgb(color)}, 0.7);
+        z-index: 1000;
+      `
+      : `width: 30px; height: 30px;`;
+
+    // Add a highlight border for selected trips
+    const borderStyle = isSelectedTrip
+      ? `border: 3px solid ${color}; box-shadow: 0 0 8px ${color};`
+      : `border: 2px solid ${color};`;
 
     return L.divIcon({
       className: "custom-bus-icon",
       html: `
-        <div style="width: 30px; height: 30px; border-radius: 50%; border: 2px solid ${color}; display: flex; align-items: center; justify-content: center; position: relative;">
+        <style>
+          @keyframes pulse {
+            0% {
+              box-shadow: 0 0 0 0 rgba(${hexToRgb(color)}, 0.7);
+            }
+            70% {
+              box-shadow: 0 0 0 10px rgba(${hexToRgb(color)}, 0);
+            }
+            100% {
+              box-shadow: 0 0 0 0 rgba(${hexToRgb(color)}, 0);
+            }
+          }
+        </style>
+        <div style="${selectedStyles} border-radius: 50%; ${borderStyle} display: flex; align-items: center; justify-content: center; position: relative; background-color: ${isSelectedTrip ? 'rgba(255,255,255,0.9)' : 'rgba(255,255,255,0.7)'};">
           <div style="${getPositionBasedOnBearing(bearing)}">
-            <svg width="30" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="${isSelectedTrip ? '40' : '30'}" height="${isSelectedTrip ? '45' : '35'}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 3L20 18H4L12 3Z" fill="${color}" />
             </svg>
           </div>
-          <span style="background-color: white; color: black; border-radius: 50%; font-weight: bold; font-size: 12px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10; text-align: center; height: 100%; width: 100%; display: flex; align-items: center; justify-content: center;">
+          <span style="background-color: white; color: black; border-radius: 50%; font-weight: bold; font-size: ${isSelectedTrip ? '14px' : '12px'}; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10; text-align: center; height: 100%; width: 100%; display: flex; align-items: center; justify-content: center;">
             ${routeId.endsWith("U") ? routeId.slice(0, -1) : routeId}
           </span>
         </div>
       `,
-      iconSize: [30, 30],
-      iconAnchor: [10, 10],
-    })
-  }
+      iconSize: isSelectedTrip ? [40, 40] : [30, 30],
+      iconAnchor: isSelectedTrip ? [20, 20] : [15, 15],
+    });
+  };
+  // const getBusIcon = (routeId: string, bearing: number, isSelectedTrip: boolean) => {
+  //   const color = busLines.find(line => line.id === routeId)?.color || "#3388ff"
+
+  //   return L.divIcon({
+  //     className: "custom-bus-icon",
+  //     html: `
+  //       <div style="width: 30px; height: 30px; border-radius: 50%; border: 2px solid ${color}; display: flex; align-items: center; justify-content: center; position: relative;">
+  //         <div style="${getPositionBasedOnBearing(bearing)}">
+  //           <svg width="30" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  //             <path d="M12 3L20 18H4L12 3Z" fill="${color}" />
+  //           </svg>
+  //         </div>
+  //         <span style="background-color: white; color: black; border-radius: 50%; font-weight: bold; font-size: 12px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10; text-align: center; height: 100%; width: 100%; display: flex; align-items: center; justify-content: center;">
+  //           ${routeId.endsWith("U") ? routeId.slice(0, -1) : routeId}
+  //         </span>
+  //       </div>
+  //     `,
+  //     iconSize: [30, 30],
+  //     iconAnchor: [10, 10],
+  //   })
+  // }
 
   // Function to calculate position based on bearing
   const getPositionBasedOnBearing = (bearing: number) => {
@@ -94,8 +157,9 @@ export default function BusMap({ busLocations, busLines, userLocation, stops, st
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 
-      {busLocations.map((bus) => (
-        <Marker key={bus.id} position={[bus.vehicle.position.latitude, bus.vehicle.position.longitude]} icon={getBusIcon(bus.vehicle.trip.routeId, bus.vehicle.position.bearing)}>
+      {busLocations.map((bus) => {
+        const isSelectedTrip = selectedTrip?.tripId === bus.vehicle.trip.tripId
+        return <Marker key={bus.id} position={[bus.vehicle.position.latitude, bus.vehicle.position.longitude]} icon={getBusIcon(bus.vehicle.trip.routeId, bus.vehicle.position.bearing, isSelectedTrip)}>
           <Popup>
             <div className="flex flex-col gap-2">
               <div>Bus {bus.id}</div>
@@ -119,7 +183,7 @@ export default function BusMap({ busLocations, busLines, userLocation, stops, st
             </div>
           </Popup>
         </Marker>
-      ))}
+      })}
 
       {userLocation && (
         <Marker position={userLocation} icon={L.divIcon({

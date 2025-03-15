@@ -188,7 +188,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-1 min-h-0">
-        <div className="hidden md:block w-64 bg-white border-r p-2 h-full">
+        <div className="hidden md:block w-64 bg-white border-r border-gray-200 p-2 h-full">
           <BusLineSelector
             busLines={busLines}
             selectedLines={selectedLines}
