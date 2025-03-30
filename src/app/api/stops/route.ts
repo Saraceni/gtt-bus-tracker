@@ -44,7 +44,7 @@ const parseCsv = (csv: string) => {
 var cachedStops: any[] = []
 var cachedStopTimes: any[] = []
 
-export const maxDuration = 20; // This function can run for a maximum of 20 seconds
+export const maxDuration = 30; // This function can run for a maximum of 20 seconds
 
 export async function GET(request: NextRequest) {
     // I need to download the zip file from the url https://www.gtt.to.it/open_data/gtt_gtfs.zip
